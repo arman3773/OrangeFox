@@ -16,7 +16,7 @@ module.exports = function (bot) {
         "message": msg.content
       });
 
-      matched = 0;
+     var matched = 0;
 
       for (var i = 0; i < authors.length; i++) {
         if (authors[i].time > now - 1000) {
